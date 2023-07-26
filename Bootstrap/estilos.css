@@ -1,0 +1,72 @@
+*{margin: 0; padding: 0;}
+.font{font-family: 'Lato', sans-serif;}
+.font-tittle{font-family: 'Open Sans', sans-serif; font-size: 150%;}
+.info{
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.info h2{text-transform: uppercase; font-size: 120%; font-weight: 600;}
+.info h3{font-size: 250%;}
+.carousel-caption h5{font-size: 250%; font-weight: 600;}
+.carousel-caption p{font-size: 150%;}
+.mi-header p{ width: 60%;}
+.card-size{ height: 60vh;}
+.card img{height: 40%;}
+
+
+/* Footer */
+.footer{height: 40vh;}
+.footer-info{height: 84%; color: white; }
+.footer-copyright{ background-color: #2F2E29; color: white; height: 16%; margin: 0;}
+
+.info-redes img{height: 1.2em;}
+.info-redes-1{ font-size: 150%; font-weight: 600;}
+.info-logo, .info-redes{height: 70%;}
+
+.info-info img{height: 1.3em; width: 15%;}
+.info-info p{ width: 70%; font-size: 115%; margin: 0;}
+.info-info img[alt="place-info"]{height: 1.75em;}
+@media screen and (max-width:768px) {
+    .card-size{height: 150vh; border: 1px solid blueviolet;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:576px) {
+    .info{height: 65vh;}
+    
+
+}
+
+/* ABOUR US PÁGINA */
+.nosotros{height: 20vh; background-color: #f2f2f2;}
+.nosotros h2{font-weight: 600; font-size: 200%;}
+
+.principal{height: 90vh;}
+
+.texto h2{
+    text-transform: uppercase;
+    font-size: 100%;
+}
+.texto h3{font-size: 250%;}
+
+/* CONTACT US PAGINA*/
+.contactanos{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contactanos h2{ font-size: 200%; font-weight: 600;}
+.contactanos h3{font-size: 90%;}
+
+.contacto-main{height: 45vh;}
+.sec-tittle{color: #678D58; font-weight: 600;}
+.seccion-contacto img{height: 8em;}
+
+
+
+
+
+

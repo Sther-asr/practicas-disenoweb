@@ -1,0 +1,76 @@
+.font{font-family: 'Lato', sans-serif;}
+.font-tittle{font-family: 'Open Sans', sans-serif;}
+
+/* PAGINA PRINCIPAL */
+.mi-header{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mi-header p{ width: 70%; font-size: 130%;}
+.mi-header h2{text-transform: uppercase; font-size: 140%; font-weight: 600;}
+.mi-header h3{font-size: 250%; font-weight: 600;}
+.card{height: 30em;}
+.card img{height: 12em;}
+
+/* Footer */
+.footer{height: 40vh; display: flex; flex-direction: column;}
+.footer-info{height: 84%; color: white; display: flex; padding-top: 2em;}
+.footer-copyright{ background-color: #2F2E29; color: white; height: 16%; margin: 0; display: flex; justify-content: center; align-items: center;}
+.info-redes,.info-logo,.info-info{width: 33.33%;}
+
+.info-redes{display: flex; flex-direction: column; justify-content: center;}
+.info-redes img{height: 1.2em; margin: 0 0.5em;}
+.info-redes-1{ font-size: 150%; font-weight: 600;}
+.info-logo, .info-redes{height: 70%;}
+
+.info-info{display: flex; flex-direction: column; justify-content: center;}
+.info-info-items{display: flex; align-items: center; justify-content: space-evenly; margin: 0.4em 0;}
+.info-info img{height: 1.3em; width: 15%;}
+.info-info p{ width: 70%; font-size: 115%; margin: 0;}
+.info-info img[alt="place-info"]{height: 1.75em;}
+
+
+
+/* ABOUT US PÁGINA */
+.nosotros{
+    height: 20vh; 
+    background-color: #f2f2f2; margin-top: 2em;}
+.nosotros h2{font-weight: 600; font-size: 200%;}
+
+.principal{height: 90vh;}
+.principal-item{display: flex; justify-content: space-between;}
+
+.principal-text{margin:0 2em}
+
+.principal-text h2{
+    text-transform: uppercase;
+    font-size: 100%;
+    font-weight: 400;
+    margin: 0; padding: 0;
+    margin-bottom: 0.5em;
+}
+.principal-text h3{font-size: 250%; margin: 0 0; padding: 0; font-weight: 600;}
+.principal-text input{margin-top: 1em;}
+
+/* CONTACT US PAGINA */
+.mi-header .hola{text-transform: none; font-size: 200%; font-weight: 600;}
+
+.contacto-main{
+    height: 45vh;
+}
+.seccion-contacto{display: flex; 
+    justify-content: center; 
+    align-content: center; 
+    align-items: center;
+    /* border: 1px solid #2F2E29; */
+    padding: 1em 0;
+    height: 12em;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+.seccion-contacto img{height: 8em;}
+.sec-tittle{color: #678D58; font-weight: 600;}
+.mx{margin: 0 0.5em;}
